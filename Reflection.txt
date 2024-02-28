@@ -1,5 +1,4 @@
-This is an example file for reflection in IBI1_2023-24.
-
-During this course, I have learnt version control, how to navigate Unix-like systems and how to write simple programs in Python.
-
-I have also learnt to write careful instructions when communicating online!
+In this course, I have met numerous questions, one of which cant even be solved by proffessor.
+However, just after class, I found that miraculously got solved. I dont know why.
+That was  totally surprising and confusing.
+And I think the coding itself is that surprising and confusing.
