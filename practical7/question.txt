@@ -1,0 +1,6 @@
+question: what is the distribution of DALYs of different country in 2019?
+Code starts at line 41 in global health data.py
+Discussion:
+The boxplot indicates that the DALYs varies widely in different countries.
+Some of them are extremely high and aome are relatively low.
+The global health status is still a concerning question. 
