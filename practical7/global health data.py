@@ -3,8 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np  #import functions
 
-os.chdir("C:/Users/huawei/Desktop/IBI/IBI1_2023-24/IBI1_2023-24/practical 7")
-dalys_data = pd.read_csv("dalys-rate-from-all-causes.csv") #read the data
+
+dalys_data = pd.read_csv("C:/Users/huawei/Desktop/IBI/IBI1_2023-24/IBI1_2023-24/practical7/dalys-rate-from-all-causes.csv") #read the data
 #some practical codes
 
 #print(dalys_data.head())
@@ -32,6 +32,9 @@ else:
     print('The DALYs in China in 2019 was less than the mean')
 
 plt.plot(china_days['Year'],china_days['DALYs'],'b+')
+plt.title('DALYs Over Time in China')
+plt.xlabel('Year')
+plt.ylabel('DALYs per 100,000')
 plt.xticks(china_days.Year,rotation=-90)
 plt.show()
 plt.clf
