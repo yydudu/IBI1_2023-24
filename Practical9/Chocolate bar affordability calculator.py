@@ -4,7 +4,7 @@ def calculator(total_money,price):
     left=total_money%price
     return number, left
 
-#example
+#example usage
 total=184
 bar=10
 numbers,change = calculator(total,bar)
