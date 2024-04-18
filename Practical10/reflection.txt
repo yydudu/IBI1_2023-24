@@ -1,0 +1,3 @@
+It is difficult I think.
+It was interesting to see the simulation work correctly after debugging the code. 
+The most important lesson learned was the boundary conditions in modeling and how they can drastically affect the outcome of a simulation.
