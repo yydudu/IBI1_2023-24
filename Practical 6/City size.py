@@ -1,7 +1,11 @@
 uk_cities =[0.56,0.62,0.04,9.7]
 China_cities =[0.58,8.4,29.9,22.2]
-print(uk_cities)
-print(China_cities)
+
+sorted_uk=sorted(uk_cities)
+sorted_china=sorted(China_cities)
+
+print("Sorted UK city populations:", sorted_uk)
+print("Sorted China city populations:", sorted_china)
 
 import matplotlib.pyplot as plt
 import numpy as np
