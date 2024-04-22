@@ -4,9 +4,6 @@
 #print the dictionary
 #print the time spent on a randomly chosen activity
 #create a pie chart
-#define lists of city populations for the UK and China
-#sort and print the population lists
-#create and dispaly bar plots for them
 
 dic={"sleeping":8, "classes":6, "studying":3.5, "TV":2, "Music":1,}
 otherhours = 24-sum(dic.values())
