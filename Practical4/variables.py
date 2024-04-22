@@ -13,11 +13,11 @@ else:
     print("The improvements from running only and running and strength training are equal.")
 X=True
 Y=False
-W=X or Y 
-print(W)
+W=(X or Y) and not (X and Y) 
+print("The value of W is ",W)
 # Truth table
 # X      Y      W
-# True   True   True
+# True   True   False
 # True   False  True
 # False  True   True  
 # False   False False
